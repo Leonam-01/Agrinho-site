@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-image: linear-gradient(to right,#2a5d27,#44fe2f);
+    text-align: center;
+    padding: 1rem;
+    font-family: times new roman;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue';
+    font-size: 61px;
+    background-image: linear-gradient(to right,#44fe2f,yellow);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0.8px 0.8px 40px yellowgreen;
+}
+
+#subtitulo{
+    font-family: helvetica;
+}
+
+header p, footer p {
+    font-size: 1.1rem;
+}
+
+.container {
+    display: flex;
+}
+/*cor menu arrumar depois*/
+aside {
+    background-image: linear-gradient( to right,#2C6728 30%,#307D29);
+    width: 18%;
+    color: white;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+/*.*/
+aside h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li a{
+    margin-bottom: 2rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+aside ul li a:hover {
+    border-radius: 12px;
+    background-color: yellowgreen;
+}
+
+main {
+    width: 80%;
+    padding: 2rem;
+}
+
+/*ampliadores ao passar o cursor*/
+.amplification8:hover{
+    transform: scale(1.15);
+}
+
+.amplification7:hover{
+    transform: scale(1.04);
+}
+
+.amplification6:hover{
+    transform: scale(1.04);
+}
+
+.amplification5:hover{
+    transform: scale(1.04);
+}
+
+.amplification4:hover{
+    transform: scale(1.2);
+}
+
+.amplification3:hover{
+    transform: scale(1.2);
+}
+
+.amplification2:hover{
+    transform: scale(1.2);
+}
+
+.amplification1:hover{
+    transform: scale(1.2);
+}
+
+/* cores e parametros do section*/
+section{
+    background-color: whitesmoke ;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section li {
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+section li strong {
+    color: #333;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: auto;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top right,#1C1C1C, green);
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+  padding: 1rem;
+  background-image: linear-gradient(to right,black,green);
+}
+
+#botaofeio a{
+  display:inline-block;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#botaofeio:hover{
+  transform: scale(1.08);
+}
+
+#titulo1{
+  display: block;
+  margin: auto;
+  font-size: 37px;
+  font-family: bebas neue;
+  background-image: linear-gradient(to top left,lightgreen 54%,black);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0.8px 0.8px 85px yellowgreen;
+}
+
+main{
+  width: 110%;
+  padding: 2rem;
+}
+
+.container{
+  display: flex;
+}
+
+section{
+    text-align: justify;
+    font-family: Verdana;
+    color: azure;
+    background-color: transparent;
+    padding: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.espaço{
+  padding: 2rem;
+}
+
+img{
+  
+  border-radius: 10px;
+  width: 800px;
+  margin: auto;
+  display: block;
+}
+
+li{
+  font-size: 20px;  
+  padding: 1.9rem;
+}
+
+h2{
+  font-size: 34px;
+}
+
+
